@@ -1,0 +1,112 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.roomall {
+	height: 580px;
+	position: relative;
+	margin-top: 3%;
+}
+.img1 {
+	height: 100%;
+	width: 100%;
+}
+.details {
+	height: 200px;
+	width: 600px;
+	position: absolute;
+	top: 27%;
+	left: 15%;
+	display: flex;
+	justify-content: space-around;
+}
+.info {
+	background-color: #ffffff;
+	height: 100%;
+	width: 60%;
+}
+.price {
+	background-color: #00134d;
+	height: 100%;
+	width: 40%;
+}
+.suite {
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+}
+.get {
+	color: #000000;
+    font-family: 'Pathway Gothic One', sans-serif;
+    font-size: 30px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 3%;
+}
+.correct {
+	color: #000;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    margin: 0;
+    margin-top: 10px;
+}
+.text {
+	color: #7d7d7d;
+    font-family: 'Lato', sans-serif;
+    font-size: 11px;
+    font-weight: 400;
+}
+.suite {
+	display: block;
+	height: 30px;
+	width: 160px;
+	background-color: #aac05c
+}
+.infosize {
+	height: 80%;
+	width: 80%;
+	margin: 7%;
+}
+.book {
+	margin-top: 50%;
+	margin-left: 16%;
+}
+.pricetxt {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.price {
+	color: #fff;
+    font-family: Old Standard TT, Sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+}
+.per {
+	color: #fff;
+    font-family: 'Old Standard TT', serif;
+    font-size: 20px;
+    font-weight: 400;
+    vertical-align: top;
+}
+button {
+	text-transform: uppercase;
+	width: 150px;
+	height: 40px;
+ 	background: rgb(255,103,125);
+ 	border: 2px;
+ 	border-color: rgb(255,103,125);
+ 	color: white;
+ 	text-decoration: bold;
+}
+.pricesize {
+	margin-left: 10%;
+	margin-top: 10%;
+}
+button:hover{
+	background-color: #00134d;
+	border: 3px solid rgb(255,103,125);
+	color: rgb(255,103,125);
+}

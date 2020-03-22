@@ -1,0 +1,89 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.roomdetails {
+	height: 580px;
+}
+h1 {
+	color: #000000;
+    font-family: 'Pathway Gothic One', sans-serif;
+    size: 50px;
+    weight: 400;
+}
+.information {
+	color: #7d7d7d;
+    font-family: 'Lato', sans-serif;
+    size: 15px;
+    weight: 400;
+}
+.content {
+	height: 480px;
+	display: flex;
+	justify-content: space-around;
+	margin-top: 5%;
+}
+.photo {
+	width: 55%;
+}
+.details {
+	width: 45%;
+	list-style-position: right;
+	background-color: #ffe6ff;
+}
+h2 {
+	color: #000000;
+    font-family: 'Pathway Gothic One', sans-serif;
+    size: 30px;
+    weight: 400;
+    text-transform: uppercase;
+}
+h2:hover {
+	color: #ff4157;
+}
+span, ul {
+	color: #7d7d7d;
+    font-family: 'Lato', sans-serif;
+    size: 15px;
+    weight: 400;
+}
+button {
+	width: 210px;
+	height: 50px;
+ 	background: rgb(255,103,125);
+ 	text-align: center;
+ 	font-weight: bold;
+ 	color: #ffffff;
+ 	border-color: rgb(255,103,125);
+}
+button:hover {
+	background: #162541;
+	border-color: #162541;
+}
+.img1 {
+	display: block;
+	height: 100%;
+	width: 100%;
+}
+.details-container {
+	height: 100%;
+	width: 70%;
+	margin-left: 10%;
+}
+.head {
+	display: block;
+	width: 600px;
+	height: 50px;
+	margin-left: 10%;
+}
+.arrow {
+	position: fixed;
+	bottom: 5%;
+	right: 4%;
+	width: 40px;
+	height: 40px;
+}
+.arrow img {
+	height: 100%;
+	width: 100%;
+}
