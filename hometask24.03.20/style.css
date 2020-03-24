@@ -1,0 +1,123 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.page {
+	margin-top: 2%;
+	height: 600px;
+	background-image: url(images/bg-image-10.jpg);
+	background-position: center;
+	display: flex;
+	justify-content: space-around;
+}
+.propose {
+	margin-top: 5.5%;
+	height: 75%;
+	width: 60%;
+}
+.info {
+	font-size: 24px;
+	color: #ffffff;
+	margin-top: 5.5%;
+	height: 75%;
+	width: 40%;
+}
+.infosize {
+	width: 60%;
+	margin-left: 10%;
+	margin-top: 0;
+}
+h1 {
+	font-family: Montserrat;
+	font-size: 1.4em;
+}
+h2 {
+	font-family: Roboto;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 2em;
+}
+span {
+	font-family: Montserrat;
+	text-align: center;
+	font-size: 0.8em;
+}
+.divtextinfo {
+	text-align: justify;
+}
+.propose {
+	display: flex;
+	justify-content: space-around;
+}
+.japan, .carribean {
+	height: 85%;
+	width: 45%;
+	background-color: #ffffff;
+	margin-left: 5%;
+	margin-top: 3.5%;
+	border-radius: 10px;
+}
+.photojapan, .photocarribean {
+	height: 80%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	border-radius: 10px;
+	position: relative;
+}
+.promo {
+	height: 30px;
+	width: 70px;
+	position: absolute;
+	color: #ffffff;
+	background-color: #ffa366;
+	font-size: 24px;
+	font-weight: 600;
+	margin: 10% 0 0 10%;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 5px;
+}
+.infojapan_price, .infocarribean_price {
+	height: 70%;
+	width: 80%;
+	font-family: Montserrat;
+	font-weight: bold;
+	color: #000000;
+	font-size: 24px;
+	margin-left: 10%;
+	margin-top: 1.2%;
+}
+.old_new_price {
+	word-spacing: 20px;
+}
+
+.pricecarribeanold, .pricejapanold {
+	text-decoration: line-through;
+	color: rgba(0,0,0,.2);
+}
+.pricecarribeannew, .pricejapannew {
+	color: #75c15b
+}
+.infojapan:hover {
+	color: #75c15b
+}
+.forwback_buttons {
+	height: 200px;
+	width: 100px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	margin-bottom: 50%;
+}
+.forward_button, .back_button {
+	background-image: url(images/Next.png);
+	background-position: center;
+	background-repeat: no-repeat;
+	border-radius: 50%;
+	width: 100%;
+	height: 45%;
+}
+.back_button {
+	background-image: url(images/Previous.png);
+}
