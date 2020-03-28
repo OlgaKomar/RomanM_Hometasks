@@ -1,0 +1,19 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #7d7d7d;
+    font-family: 'Lato', Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.roompricesection {
+	background-image: url(images/background.jpg);
+}
+
+.container {
+	background-color: #fff;
+}
