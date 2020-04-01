@@ -1,0 +1,106 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+section {
+	font-family: "Lato", sans-serif;
+}
+
+header {
+	padding: 10px;
+}
+
+.photo_info {
+	height: 500px;
+	width: 100%;
+	display: flex;
+	justify-content: space-around;
+}
+
+.photo {
+	width: 60%;
+	height: 500px;
+	position: relative;
+	background-color: #fff;
+}
+
+.photo img {
+	height: 500px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.info {
+	width: 40%;
+	background-color: #faebeb;
+	padding: 20px 40px;
+}
+
+button {
+	height: 3.4em;
+	width: 14em;
+	background-color: #ff471a;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;;
+	font-weight: bold;
+	letter-spacing: 0.08em;
+	border: none;
+	box-shadow: none;
+}
+
+button:hover {
+	background-color: #333399;
+}
+
+.carousel-control-prev, .carousel-control-next, 
+.carousel-control-prev:active .carousel-control-next:active {
+	background-color: #fff;
+	font-weight: 900;
+	font-size: 4em;
+	text-align: center;
+	vertical-align: middle;
+	opacity: 1;
+	position: absolute;
+	top: 400px;
+	height: 100px;
+	width: 100px;
+	color: #000000;
+	font-size: 40px;
+	line-height: 80px;
+}
+
+.carousel-control-prev:hover, .carousel-control-next:hover,
+.carousel-control-prev:focus, .carousel-control-next:focus {
+	background-color: #000;
+	color: #fff;
+}
+
+.carousel-control-next {
+
+
+}
+
+.carousel-control-prev {
+
+}
+
+ul li {
+	list-style-type: none;
+
+}
+
+ul li::before {
+  content: "";
+  display: inline-block;
+  height: 1px;
+  width: 40px;
+  background: grey;
+  vertical-align: middle;
+  margin-right: 30px;
+}
+
+.details, h3 {
+	text-transform: uppercase;
+	font-size: 30px;
+}

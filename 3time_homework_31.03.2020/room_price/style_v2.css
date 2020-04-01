@@ -1,0 +1,107 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	color: #7d7d7d;
+    font-family: 'Lato', Sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+section {
+	height: 600px;
+	width: 100%;
+	background-image: url(images/background.jpg);
+	background-position: center center;
+	background-size: cover; 
+	margin-top: 30px;
+}
+
+.container {
+	padding: 130px 100px 150px; 
+	width: 60%;
+	display: flex;
+}
+
+.info {
+	background-color: #fff;
+	padding: 50px;
+	width: 70%;
+}
+
+.price {
+	background-color: #26345a;
+	color: #fff;
+	padding: 10% 0 0 5%;
+}
+
+.text_book {
+	line-height: 35px;
+	width: 180px;
+	background-color: #9dda61;
+	color: #fff;
+	text-align: center;
+	font-size: 11px;
+	letter-spacing: 1.5px;
+}
+
+.text_book span, h2 {
+	text-transform: uppercase;
+}
+
+h2, h5 {
+	font-weight: lighter;
+	color: #000000;
+}
+
+h2 {
+	margin: 15px 0;
+	font-family: 'Pathway Gothic One', sans-serif;
+	font-size: 40px;
+}
+
+h5 {
+	margin-bottom: 15px;
+	font-size: 20px;
+}
+
+.span_price {
+	font-size: 50px;
+	font-family: 'Old Standard TT', serif;
+}
+
+.price span {
+	vertical-align: middle;
+}
+
+.price p {
+	margin-bottom: 10px;
+}
+
+button {
+	margin-top: 10px;
+	height: 50px;
+	width: 200px;
+	background-color: #ff4d4d;
+	text-align: center;
+	color: #fff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	border: none;
+	font-weight: bold;
+}
+
+button:hover {
+	border: 1.5px solid #ff4d4d;
+	color: #ff4d4d;
+	background-color: #26345a;
+	font-weight: bold;
+}
+
+@media screen and (max-width: 992px) {
+	.container {
+		padding-left: 0;
+	}
+}
