@@ -2,3 +2,89 @@
 margin: 0;
 padding: 0;
 }
+
+header {
+	height: 60px;
+	width: 100%;
+	background-color: #E05433;
+	display: inline-flex;
+
+}
+.header-logo a, .header-login-link a, .header-register-link a {
+	text-decoration: none;
+	font-family: Verdana, sens-serif;
+}
+
+h1 {
+	font-size: 22px;
+	color: #f2f2f2;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+.header-logo {
+	margin-left: 7%;
+	display: flex;
+}
+
+.header-logo a {
+	padding: 18px 0 0 7px;
+}
+
+.header-logo img, .header-login-link img, .header-register-link img {
+	object-position: center;
+	object-fit: cover;
+}
+
+.header-logo img {
+	height: 37px;
+	width: 41px;
+	padding-top: 10px;
+}
+
+.header-register-link img {
+	height: 23px;
+	width: 34px;
+}
+
+.header-login-link img {
+	height: 23px;
+	width: 29px;
+}
+
+.header-login-link a, .header-register-link a, .header-bootcamps-link {
+	color: #d9d9d9;
+	opacity: 70%;
+	font-family: Verdana, sens-serif;
+}
+
+.header-bootcamps-link {
+	margin-left: 1%;
+	vertical-align: middle;
+	display: inline-flex;
+	padding-top: 20px;
+}
+
+.header-login-link, .header-register-link{
+	display: flex;
+}
+
+.header-login-link {
+	margin-left: 45%;
+}
+
+.header-register-link {
+	margin-left: 2%;
+}
+
+.header-bootcamps-link p {
+	padding-left: 15px;
+}
+
+.header-login-link a, .header-register-link a {
+	padding: 20px 0 0 3px;
+}
+
+.header-login-link img, .header-register-link img {
+	padding-top: 20px;
+}
