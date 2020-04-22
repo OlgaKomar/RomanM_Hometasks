@@ -1,0 +1,22 @@
+команда
+git checkout master - переключає на master
+
+git checkout "branchname" - переключає на branchname
+
+git checkout -b "branchname" - створює нову бренчу і переключає на неї
+
+git merge "branchname" - підтягує зміни з "branchname" у поточну бренчу
+
+git push origin "branchname" - відправляєм зміни на віддалений репозиторій в ту саму бренчу (клонує бренчу з компютера на сайт)
+
+git pull origin "branchname" - затягуєм зміни з віддаленого репозиторія
+
+1 завдання це окрема бренча
+
+створення poolrequest
+
+все готове? якщо так тоді треба зробити коміт того що зроблено.
+git status
+git add
+git commit -m
+git push origin "branchname" 
